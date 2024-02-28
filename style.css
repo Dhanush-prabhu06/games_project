@@ -1,5 +1,74 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  margin: 0px;
+}
+.head {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 12%;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  background-color: black;
+  border-radius: 150px;
+  border: 2px solid red;
+  padding: 20px;
+
+  /* border-color: red; */
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+body {
+  background-color: #5ab1d0;
+}
+.snake-css {
+  border-radius: 50px;
+}
+.third {
+  margin-right: 0px;
+}
+
+.first {
+  margin-left: 200px;
+}
+.fourth {
+  margin-right: 200px;
+}
+
+.head {
+  text-align: center;
+  padding: 20px 0;
+  background-color: black;
+  color: #fff;
+}
+
+.snake-css,
+.drum,
+.dice,
+.simon {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.drum:hover,
+.dice:hover,
+.simon:hover {
+  transform: scale(1.3);
+}
+
+.snake-css:hover {
+  transform: scale(1.7);
 }
